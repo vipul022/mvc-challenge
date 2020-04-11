@@ -1,4 +1,7 @@
 class UserModel
-    def initialize
+    attr_accessor :tasks , :name
+    def initialize(name)
+        @name = name
+        @tasks = []
     end
 end
